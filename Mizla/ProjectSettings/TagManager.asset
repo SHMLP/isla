@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Door
+  - Baterie
+  - Box
+  - Gun
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -12,8 +16,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Interactable
+  - ataquenemigo
   - 
   - 
   - 

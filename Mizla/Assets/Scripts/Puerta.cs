@@ -6,17 +6,21 @@ public class Puerta : MonoBehaviour
 {
     public Animator animator;
 
+
     public void OpenDoor()
     {
-        Debug.Log("sdasd");
-        if (animator.GetBool("Abrepuerta")==false)
+       
+        if (animator.GetBool("Abrepuerta") == false)
         {
+            
             animator.SetTrigger("Abrepuerta");
         }
-        if (animator.GetBool("Cierrapuerta") == false)
+        else 
         {
+            
             animator.SetTrigger("Cierrapuerta");
         }
+        
     }
 
 }
